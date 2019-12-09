@@ -26,7 +26,16 @@
       --blur: 10px;
       --base: #ffc600;
     }
-    
+
+    img {
+      padding: var(--spacing);
+      filter: blur(var(--blur));
+      background: var(--base);
+    }
+
+    .hl {
+      color: var(--base);
+    }
     /*
       misc styles, nothing to do with CSS variables
     */
